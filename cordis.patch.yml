@@ -1,0 +1,8 @@
+# dsh-warp-input bundle patch
+#
+# 安装方式（在 dsh-desktop 项目所在机器上）：
+#   dsh plugin --profile web add dsh-warp-input@file:<path>
+# 该命令会把本包加入 profile 的 bundles，boot 时合并本 patch 并插入插件行。
+- insert:
+    - id: warp-input
+      name: 'dsh-warp-input'
